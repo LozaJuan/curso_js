@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        
         //REDONDEA A SIGUIENTE ENTERO EN DECIMAL  .5
         var precio =Math.round(399.40);
         document.write('precio redondeado es: ',precio)
@@ -67,7 +57,3 @@
         var exponente = Math.pow(4,2);
         document.write('valor de 4 a la 2: ', exponente)
         document.write('<br>')
-
-    </script>
-</body>
-</html>

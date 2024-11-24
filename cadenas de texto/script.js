@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-
-        let texto1 = "comillas dobles";
+let texto1 = "comillas dobles";
         let texto2 = "comillas simples";
         let texto3 = "cadena de texto con 'comillas simples dentro'"
         let texto4 = 'cadena de texto muy '+'<br>'+
@@ -30,7 +20,3 @@
         document.write('<br>');
         document.write('<br>');
         document.write(texto5);
-
-    </script>
-</body>
-</html>

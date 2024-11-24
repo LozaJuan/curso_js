@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        
         /*
         > MAYOR MENOR
         < MENOR MAYOR
@@ -32,7 +22,3 @@
         document.write(valor1 <= valor2);
         document.write('<br>');
         document.write(valor1 >= valor2);
-
-    </script>
-</body>
-</html>

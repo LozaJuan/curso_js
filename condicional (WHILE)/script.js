@@ -66,7 +66,7 @@ while (x<=2) {
 }
 document.write('El resultado de la suma es:', suma);
 */
-
+/*
 let x;
 x=1;
 let valor;
@@ -78,3 +78,37 @@ while (x<=2) {
     x++;
 }
 document.write('digamos que este es el resultado:', suma);
+*/
+/*
+let x;
+x=1;
+let suma;
+suma = 0;
+let valor;
+while (x<=5) {
+    valor = parseInt(prompt('Numero que quieres sumar:'));
+    suma = valor + suma;
+    x++;
+}
+document.write('El resultado es:', suma);
+*/
+
+let x;
+x = 1;
+while (x<=5) {
+    document.write('numero:', x);
+    document.write('<br>');
+    x++;
+}
+document.write('fin de la cuenta');
+
+/*
+let x;
+x = 1;
+while (x<=10) {
+    document.write('El bucles es: ',x);
+    document.write('<br>');
+    x++;
+}
+document.write('Fin del bucle');
+*/

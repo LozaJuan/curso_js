@@ -42,7 +42,7 @@ do {
 document.write('Bienvenido!');
 */
 
-
+/*
 let clave, usuario, control;
 control = 0;
 usuario = prompt('Que usuario eres?');
@@ -57,3 +57,19 @@ do {
     }
 } while (control !=1);
 document.write('Bienvenido ', usuario);
+*/
+
+let clave, usuario, control;
+usuario = prompt('Ingrese Usuario: ');
+clave = prompt('Ingrese Clave: ');
+control = 0;
+
+do {
+    if (clave != 'patatas') {
+        clave = prompt('Clave erronea, try again:');
+        control = 0;
+    } else {
+        control = 1;
+    }
+} while (control !=1);
+document.write('Bienvenido!');
